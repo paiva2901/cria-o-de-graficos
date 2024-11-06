@@ -1,0 +1,45 @@
+:root{
+  --azul: rgb(19, 3, 77);
+  --azul-claro: rgb(3, 79, 129);
+  --azul-medio: rgb(3, 56, 134);
+  --preto: #000;
+  }
+  body{
+    background-color: var(--azul-claro);
+    color: var(--preto);
+    font-family: fantasy;
+    height: 100vh;
+    margin: 0;
+  }
+
+  header{
+  background-color:var( --azul);
+   text-align: center;
+   padding: 1px;
+  }
+
+  h1{
+  font-size: 2rem;
+  color:aliceblue;
+  font-weight: 700;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+  }
+  nav{
+      display: flex;
+      justify-content: center;
+      font-weight: 400;
+      
+  }
+   nav a{
+     text-decoration: none;
+     color: #000;
+     margin: 0 2rem 1rem 0rem;
+     font-size: 1.2rem;
+   } 
+   nav a :hover{
+     text-decoration: underline;
+     transform: scale(0.90);
+     transition: transform(0.1s);
+
+   }
